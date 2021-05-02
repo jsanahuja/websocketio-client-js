@@ -1,0 +1,40 @@
+{
+    "name": "@jsanahuja/websocketio",
+    "description": "SocketIO implementation using RFC6455-compliant websockets only.",
+    "keywords": [
+        "websocketio",
+        "websocket",
+        "event",
+        "client"
+    ],
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    },
+    "homepage": "https://github.com/jsanahuja/websocketio-client-js#readme",
+    "version": "1.0.0",
+    "main": "dist/websocketio.min.js",
+    "module": "src/index.js",
+    "author": {
+        "name": "Javier Sanahuja",
+        "email": "bannss1@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jsanahuja/websocketio-client-js.git"
+    },
+    "bugs": {
+        "url": "https://github.com/jsanahuja/websocketio-client-js/issues"
+    },
+    "scripts": {
+        "dev": "webpack --mode development --watch",
+        "build": "webpack --mode production"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/core": "^7.11.1",
+        "@babel/preset-env": "^7.11.0",
+        "babel-loader": "^8.1.0",
+        "webpack": "^4.44.1",
+        "webpack-cli": "^3.3.12"
+    }
+}
